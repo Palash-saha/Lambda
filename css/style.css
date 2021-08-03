@@ -1,0 +1,380 @@
+/* GLOBAL */
+
+html,
+body {
+  font-family: "Yeseva One", cursive, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.nm {
+  margin-top: -50px;
+}
+
+.ch-text {
+  font-family: "Yeseva One", cursive, sans-serif;
+  font-size: 36px;
+  color: #cc9900;
+}
+.dark-bg {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.534);
+  text-align: center;
+}
+.dark-btn {
+  font-family: "Lato", sans-serif;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.397);
+  border: 1px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.dark-btn:hover,
+.light-btn:hover {
+  color: rgba(255, 255, 255, 0.753);
+}
+.light-btn {
+  font-family: "Lato", sans-serif;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.253);
+  border: 1px solid #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/* NAVBAR */
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 24px;
+  font-family: "Gentium Basic", serif;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-item:hover {
+  border-top: 2px solid #fff;
+}
+.navbar-nav .nav-link i {
+  color: #ffd147 !important ;
+}
+
+/* HERO */
+
+#hero {
+  background: url(/img/banner.jpg) no-repeat center / cover;
+  height: 90vh;
+  width: auto;
+}
+#hero .hero-content {
+  padding: 120px 0;
+}
+#hero .hero-content h1 {
+  font-size: 3.8rem;
+  font-family: "Yeseva One", cursive, sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* ABOUT */
+
+#about {
+  padding: 100px 0;
+  background: url(/img/pattern-banner.jpg) no-repeat center / cover;
+}
+
+#about p {
+  font-family: "Lato", sans-serif;
+  color: #000;
+  margin: 30px 0;
+}
+
+/* Ingredients */
+
+#ig {
+  background: url(/img/ig-banner.jpg) no-repeat center / cover;
+  padding: 100px 0;
+}
+#ig h3 {
+  font-size: 2rem;
+  font-family: "Yeseva One", cursive, sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+#ig p {
+  font-family: "Lato", sans-serif;
+  color: #dde0df;
+  margin-top: 20px;
+}
+
+/* MENU  */
+
+#menu-items {
+  padding: 100px 0;
+  background: url(/img/pattern-banner.jpg) no-repeat center / cover;
+}
+#menu-items p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #cc990063;
+}
+
+.menu-list h3 {
+  font-family: "Yeseva One", cursive, sans-serif;
+  font-size: 1.2rem;
+  color: #cc9900;
+  margin-top: 18px;
+}
+
+.exclusive button {
+  display: block;
+  margin-left: auto;
+  padding: 4px 10px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background: #cc9900a4;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.special {
+  padding: 0 10px;
+  border: 1px solid #cc990063;
+}
+
+/* Reviews */
+
+#rv {
+  background: url(/img/r-banner.jpg) no-repeat center / cover;
+  padding: 100px 0;
+}
+
+#rv h3 {
+  font-size: 2rem;
+  font-family: "Yeseva One", cursive, sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+
+#rv p {
+  font-family: "Open Sans", sans-serif;
+  color: #dde0df;
+  margin-top: 24px;
+}
+
+#rv i {
+  color: #9ea19d;
+}
+
+/* CONTACT */
+
+#contact {
+  padding: 100px 0;
+  background: url(/img/pattern-banner.jpg) no-repeat center / cover;
+}
+
+#contact form label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #cc9900;
+  font-weight: 700;
+  text-align: left !important;
+  margin-bottom: 5px;
+}
+#contact form input {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  width: 200px;
+  height: 35px;
+  border: 1px solid #cc9900 !important;
+  border: 1px solid #9ea19d;
+}
+#contact form input:focus {
+  border: 1px solid #9ea19d !important;
+}
+#contact form input::placeholder {
+  color: rgba(0, 0, 0, 0.753);
+  padding: 0 5px;
+}
+#contact form select {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.753);
+  width: 200px;
+  height: 35px;
+  padding: 0 5px;
+  border: 1px solid #cc9900 !important;
+}
+#contact form button {
+  padding: 10px 50px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #cc9900;
+  color: #fff;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+}
+#contact form .f-content {
+  margin-left: 20px;
+}
+
+/* Footer  */
+
+footer {
+  background: #191919;
+  padding: 100px 0;
+}
+footer h3 {
+  color: #fff;
+  font-family: "Yeseva One", cursive, sans-serif;
+  font-size: 22px;
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+/* RESPONSIVE CSS  */
+
+@media (max-width: 575px) {
+  .h-icon {
+    display: none;
+  }
+  #hero .hero-content {
+    padding: 80px 0;
+  }
+  #hero .hero-content h1 {
+    font-size: 2rem !important;
+  }
+  .dark-btn,
+  .light-btn {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .nm {
+    margin-top: 0px;
+  }
+  #contact img {
+    margin-bottom: 10px;
+  }
+  form .f-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .h-icon {
+    display: none;
+  }
+  #hero .hero-content {
+    padding: 80px 0;
+  }
+  #hero .hero-content h1 {
+    font-size: 2rem;
+  }
+  .dark-btn,
+  .light-btn {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .nm {
+    margin-top: 0px;
+  }
+  #contact img {
+    margin-bottom: 10px;
+  }
+  form .f-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .h-icon {
+    display: none;
+  }
+  #hero .hero-content {
+    padding: 80px 0;
+  }
+  #hero .hero-content h1 {
+    font-size: 2.6rem;
+  }
+  .dark-btn,
+  .light-btn {
+    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #contact img {
+    margin-bottom: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  form .f-content {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  #hero .hero-content {
+    padding: 80px 0;
+  }
+  #contact img {
+    margin-bottom: 10px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  form .f-content {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  form .f-content {
+    margin-left: 20px;
+  }
+}
